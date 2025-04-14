@@ -1,0 +1,197 @@
+/* section - About Me */
+#aboutme {
+    position: relative;
+    width: 100%;
+    height: 1500px;
+    margin-top: 100px;
+}
+
+#aboutme > .profile-section {
+    position: relative;
+    width: 100%;
+    height: 550px;
+}
+
+#aboutme > .profile-section > .content1-left {
+    float: left;
+    height: 960;
+}
+
+#aboutme > .profile-section > .content1-left > h1 {
+    position: absolute; 
+    top: 10px; 
+    left: 40%; 
+    margin-left: -540px; 
+    z-index: 10; 
+    font-size: 70px; 
+    font-weight: 500; 
+    color: #2b2b2b; 
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#aboutme > .profile-section > .content1-left > .img{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 300px;
+    z-index: 2;
+}
+
+#aboutme > .profile-section > .content1-left > .about_bg {
+    position:absolute; 
+    left:0; 
+    margin-top: 100px; 
+    width:700px; 
+    height:400px; 
+    background-color:rgba(199, 199, 199, 0.3);
+    z-index: 1;
+}
+
+#aboutme > .profile-section > .content1-right {
+    position:absolute; 
+    top: 190px; 
+    right:47%; 
+    margin-right:-600px; 
+    float:left; 
+    width:650px; 
+    height:430px;
+}
+
+#aboutme > .certifide {
+    clear: both;
+    padding : 80px 200px 0 200px;
+    text-align: center;
+}
+
+#aboutme > .certifide > h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#aboutme > .certifide > .year-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 60px;
+    font-size: 15px;
+    color: #aaa;
+}
+
+#aboutme > .certifide > .year-tabs span {
+    color: #aaa;
+    position: relative;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+#aboutme > .certifide > .year-tabs span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #2b2b2b;
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    transition: color 0.3 ease;
+}
+
+#aboutme > .certifide > .year-tabs span:hover {
+    color: #2b2b2b;
+}
+
+#aboutme > .certifide > .year-tabs span:hover::after {
+    transform: scaleX(1);
+}
+
+#aboutme > .certifide > .year-tabs span.active {
+    color: #2b2b2b;
+  }
+  
+#aboutme > .certifide > .year-tabs span.active::after {
+    transform: scaleX(1);
+  }
+
+#aboutme > .certifide > .cert-list {
+    display: none;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+#aboutme > .certifide > .cert-list.active {
+    display: flex;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#aboutme > .certifide > .cert-list > .cert-card {
+    text-align: center;
+    width: 150px;
+}
+
+#aboutme > .certifide > .cert-list > .cert-card > img {
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#aboutme > .certifide > .cert-list > .cert-card > .title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+#aboutme > .certifide > .cert-list > .cert-card > #none {
+    margin-top: 21px;
+}
+
+#aboutme > .certifide > .cert-list > .cert-card > .date {
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+@media screen and (max-width: 768px) {
+    #aboutme > .certifide {
+      padding: 60px 20px 0 20px;
+    }
+  
+    #aboutme > .certifide > h2 {
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+  
+    #aboutme > .certifide > .year-tabs {
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-bottom: 40px;
+      font-size: 14px;
+    }
+  
+    #aboutme > .certifide > .cert-list {
+      gap: 20px;
+    }
+  
+    #aboutme > .certifide > .cert-list > .cert-card {
+      width: 100%;
+      max-width: 280px;
+      margin: 0 auto;
+    }
+  
+    #aboutme > .certifide > .cert-list > .cert-card > img {
+      height: 24px;
+    }
+  
+    #aboutme > .certifide > .cert-list > .cert-card > .title {
+      font-size: 16px;
+    }
+  
+    #aboutme > .certifide > .cert-list > .cert-card > .date {
+      font-size: 0.85em;
+    }
+  }
