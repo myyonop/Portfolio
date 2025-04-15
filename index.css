@@ -4,8 +4,16 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding-top: 60px;
+}
+
+section {
+    scroll-margin-top: 100px;
 }
 
 /* footer */
