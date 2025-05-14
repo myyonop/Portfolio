@@ -40,6 +40,7 @@
     font-size: clamp(36px, 10vw, 150px);
     line-height: 0.9;
     letter-spacing: 0.3vw;
+    margin-bottom: 250px;
 }
   
 
