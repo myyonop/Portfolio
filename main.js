@@ -1,3 +1,8 @@
+// 맨 위로 이동 버튼
+let moveToTop = function () {
+  document.body.scrollIntoView({ behavior: "smooth" });
+};
+
 // 헤더 메뉴 설정
 const btn = document.querySelector(".navbar_btn");
 const menu = document.querySelector(".navbar_menu");
@@ -14,6 +19,9 @@ window.addEventListener("resize", () => {
   }
 });
 
+// ------------------------------------
+
+// ------------------------------------
 
 // 자격증란
 const tabs = document.querySelectorAll('.year-tabs span');

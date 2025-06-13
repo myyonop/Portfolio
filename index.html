@@ -5,12 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>@myyonop_Portfolio</title>
         <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="header.css">
-        <link rel="stylesheet" href="home.css">
-        <link rel="stylesheet" href="about.css">
-        <link rel="stylesheet" href="skill.css">
-        <!-- <link rel="stylesheet" href="team.css">
-        <link rel="stylesheet" href="contect.css"> -->
 </head>
 <body>
     <!-- 헤더 메뉴 -->
@@ -21,12 +15,11 @@
             </div>
     
             <ul class="navbar_menu">
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#aboutme">ABOUT ME</a></li>
-                <li><a href="#skills">SKILLS</a></li>
-                <li><a href="#work">WORK</a></li>
-                <li><a href="#team">TEAM</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="/index.html">ABOUT ME</a></li>
+                <li><a href="/index.html">CONTACT</a></li>
+                <li><a href="/work.html">GO WORK</a></li>
+                <li><a href="/team.html">GO TEAM</a></li>
             </ul>
             
             <div class="navbar_btn">
@@ -39,7 +32,7 @@
     <div class="wrapper">
         
         <!-- Home -->
-        <section id="home" class="contect0" style="scroll-margin-top: 100px;">
+        <section id="home" class="content0" style="scroll-margin-top: 100px;">
                 <div class="container">
                     <p>CREATIVE @myyonop</p>
                     <h1>WEB<br>PORTFOLIO</h1>
@@ -83,31 +76,24 @@
                     </div>
                 </div>
             </div>
-        </section>
 
-        <!-- 자격증 -->
-        <section id="skill" class="centent2" style="scroll-margin-top: 100px;">
             <div class="certifide">
                 <h2>Get certifide</h2>
-
+    
                 <div class="year-tabs">
-                    <span data-year="2025" class="active">2025</span>
+                    <span data-year="2025">2025</span>
                     <span data-year="2024">2024</span>
-                    <span data-year="2023">2023</span>
+                    <span data-year="2023" class="active">2023</span>
                     <span data-year="2022">2022</span>
                 </div>
-
+    
                 <!-- 자격증목록 -->
                 <div class="cert-list" id="cert-2025" style="display: none;">
                     <!-- 추가 예정 -->
-                </div>
-                    
-                    
+                </div>                       
                 <div class="cert-list" id="cert-2024" style="display: none;">
                     <!-- 추가 예정 -->
-                </div>
-
-
+                </div> 
                 <div class="cert-list" id="cert-2023">
                     <div class="cert-card">
                         <div class="title" id="none">정보기기<br>운용기능사</div>
@@ -131,16 +117,13 @@
                         <div class="title">한글파워포인트 A</div>
                         <div class="date">2023.05.28</div>
                     </div>
-                </div>
-                    
-                    
+                </div>           
                 <div class="cert-list" id="cert-2022" style="display: none;">
                     <div class="cert-card">
                         <div class="title" id="none">컴퓨터활용능력 2급</div>
                         <div class="date">2022.03.11</div>
                     </div>
                 </div>
-
             </div>
         </section>
 
@@ -151,7 +134,8 @@
                 &copy; 2025 Jo, Eun-Su. All Rights Reserved.
             </p>
         </footer>
-
+    
+    <button onclick="moveToTop()" class="btn-moveTop"></button>
     <script defer src="main.js"></script>
 </body>
 </html>
