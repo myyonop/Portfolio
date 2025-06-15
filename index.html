@@ -15,9 +15,9 @@
             </div>
     
             <ul class="navbar_menu">
-                <li><a href="/index.html">HOME</a></li>
-                <li><a href="/index.html">ABOUT ME</a></li>
-                <li><a href="/index.html">CONTACT</a></li>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#aboutme">ABOUT ME</a></li>
+                <li><a href="#contact">CONTACT</a></li>
                 <li><a href="/work.html">GO WORK</a></li>
                 <li><a href="/team.html">GO TEAM</a></li>
             </ul>
@@ -41,101 +41,92 @@
 
         <!-- about me -->
         <section id="aboutme" class="content1" style="scroll-margin-top: 100px;">
-            <!-- 프로필 -->
-            <div class="profile-section">
-                <div class="content1-left">
-                    <h1>About Me</h1>
-        
-                    <p class="img">
-                        <img src="img/profile.jpg" alt="">
-                    </p>
-        
-                    <div class="about_bg"></div>
+            <h2 class="fade-in">About me</h2>
+            <div class="container fade-in">
+                <div class="cont-about fade-in">
+                    <div class="images fade-in">
+                        <img src="img/profile.jpg" alt="내 사진" height="370px"/>
+                    </div> 
                 </div>
-        
-                <div class="content1-right">
-                    <div class="profile">
-                        <div class="clearfix">
-                            <dl class="info-list">
-                                <div class="info-row">
-                                    <dt>NAME</dt>
-                                    <dd>조은수</dd>
-                                </div>
-
-                                <div class="info-row">
-                                    <dt>BIRTH</dt>
-                                    <dd>2005.03.03</dd>
-                                </div>
-                                
-                                <div class="info-row">
-                                    <dt>AFFILIATION</dt>
-                                    <dd>중부대학교 고양캠퍼스 정보보호학전공</dd>
-                                </div>
-                            </dl>
+                <div class="info-about fade-in">
+                    <dl class="txt-about fade-in">
+                        <div class="fade-in">
+                            <dt>이름</dt>
+                            <dd>조은수</dd>
                         </div>
+                        <div class="fade-in">
+                            <dt>생년월일</dt>
+                            <dd>05.03.03</dd>
+                        </div>
+                        <div class="fade-in">
+                            <dt>거주지</dt>
+                            <dd>서울시 은평구</dd>
+                        </div>
+                        <div class="fade-in">
+                            <dt>학교/전공</dt>
+                            <dd>중부대학교(고양)/정보보호학과</dd>
+                        </div>
+                    </dl>
+                    <div class="btn-about fade-in">
+                        <button class="btn-open">취미</button>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <div class="certifide">
-                <h2>Get certifide</h2>
-    
-                <div class="year-tabs">
-                    <span data-year="2025">2025</span>
-                    <span data-year="2024">2024</span>
-                    <span data-year="2023" class="active">2023</span>
-                    <span data-year="2022">2022</span>
-                </div>
-    
-                <!-- 자격증목록 -->
-                <div class="cert-list" id="cert-2025" style="display: none;">
-                    <!-- 추가 예정 -->
-                </div>                       
-                <div class="cert-list" id="cert-2024" style="display: none;">
-                    <!-- 추가 예정 -->
-                </div> 
-                <div class="cert-list" id="cert-2023">
-                    <div class="cert-card">
-                        <div class="title" id="none">정보기기<br>운용기능사</div>
-                        <div class="date">2023.07.12</div>
+        <section id="contact" class="content2" style="scroll-margin-top: 100px;">
+            <h2 class="fade-in">CONTACT</h2>
+            <div class="container fade-in">
+                <div class="contact-info fade-in">
+                    <div class="contact-card fade-in">
+                        <img src="img/insta.jpg" alt="instagram icon" />
+                        <a href="https://www.instagram.com/myyonop" target="_blank">@myyonop</a>
                     </div>
-
-                    <div class="cert-card">
-                        <img src="img/itq-logo.png" alt="itq">
-                        <div class="title">아래한글 A</div>
-                        <div class="date">2023.05.28</div>
+                    <div class="contact-card fade-in">
+                        <img src="img/mail.png" alt="email icon" />
+                        <a href="mailto:youremail@example.com">kreideprinz913@gmail.com</a>
                     </div>
-
-                    <div class="cert-card">
-                        <img src="img/itq-logo.png" alt="itq">
-                        <div class="title">한글엑셀 A</div>
-                        <div class="date">2023.05.28</div>
-                    </div>
-
-                    <div class="cert-card">
-                        <img src="img/itq-logo.png" alt="itq">
-                        <div class="title">한글파워포인트 A</div>
-                        <div class="date">2023.05.28</div>
-                    </div>
-                </div>           
-                <div class="cert-list" id="cert-2022" style="display: none;">
-                    <div class="cert-card">
-                        <div class="title" id="none">컴퓨터활용능력 2급</div>
-                        <div class="date">2022.03.11</div>
+                    <div class="contact-card fade-in">
+                        <img src="img/call.png" alt="phone icon" />
+                        <span>010-2382-9978</span>
                     </div>
                 </div>
             </div>
         </section>
 
     </div>
-        <footer>
-            <p>
-                본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.<br>
-                &copy; 2025 Jo, Eun-Su. All Rights Reserved.
-            </p>
-        </footer>
-    
+
+    <footer>
+        <p>
+            본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.<br>
+            &copy; 2025 Jo, Eun-Su. All Rights Reserved.
+        </p>
+    </footer>
+
     <button onclick="moveToTop()" class="btn-moveTop"></button>
+    
+    <div class="modal-background">
+        <div class="modal">
+            <h3>취미</h3>
+            <h4>🎼 Musical 🎹</h4>
+            <div class="slide-container">
+                <div class="slide-album">
+                    <div class="slide-images">
+                        <img src="img/musical-1.jpg"/>
+                        <img src="img/musical-2.jpg"/>
+                        <img src="img/musical-3.jpg"/>
+                        <img src="img/musical-4.jpg"/>
+                        <img src="img/musical-5.jpg"/>
+                        <img src="img/musical-6.jpg"/>
+                    </div>
+                <button class="btn-next">▶</button>
+                <button class="btn-prev">◀</button>
+            </div>
+                <button type="button" class="btn-close">Close</button>
+        </div>
+    </div>
+
+    
     <script defer src="main.js"></script>
 </body>
 </html>
